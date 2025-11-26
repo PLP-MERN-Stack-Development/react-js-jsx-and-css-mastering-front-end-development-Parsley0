@@ -86,7 +86,7 @@ This project is the Week 3 assignment for the PLP MERN July cohort. It focuses o
 - Custom hooks and React Context for state management and theming
 - JSONPlaceholder REST API integration with pagination, search, and resilient states
 
-### ⚙️ Getting Started
+###  Getting Started
 ```bash
 npm install
 npm run dev
