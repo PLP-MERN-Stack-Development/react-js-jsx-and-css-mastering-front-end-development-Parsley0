@@ -1,0 +1,30 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <style>
+      .title { font: 600 48px 'Segoe UI', sans-serif; fill: #fff; }
+      .body { font: 400 22px 'Segoe UI', sans-serif; fill: #e2e8f0; }
+      .badge { font: 600 18px 'Segoe UI', sans-serif; fill: #0f172a; }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="32" />
+  <text x="80" y="150" class="title">SmileCare Hub</text>
+  <text x="80" y="210" class="body">Dental checklist · Resource library · Theme switcher</text>
+  <rect x="80" y="260" width="480" height="280" rx="24" fill="rgba(255,255,255,0.15)" />
+  <rect x="620" y="260" width="480" height="120" rx="24" fill="rgba(15,23,42,0.35)" />
+  <rect x="620" y="410" width="480" height="130" rx="24" fill="rgba(15,23,42,0.35)" />
+  <text x="110" y="320" class="body">Care Checklist</text>
+  <text x="110" y="360" class="body">• Reminders & filters</text>
+  <text x="110" y="400" class="body">• Local persistence</text>
+  <text x="650" y="320" class="body">Resource Library</text>
+  <text x="650" y="360" class="body">• Search dental tips</text>
+  <text x="650" y="480" class="body">Theme Context</text>
+  <text x="650" y="520" class="body">• Light & Dark modes</text>
+  <rect x="80" y="570" width="280" height="60" rx="12" fill="#fbbf24" />
+  <text x="100" y="610" class="badge">Replace with real screenshot after deployment</text>
+</svg>
+
