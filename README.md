@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React.js and Tailwind CSS Assignment
 
 This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
@@ -68,3 +69,63 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Router Documentation](https://reactrouter.com/) 
+=======
+
+
+
+## Week 3 · React, JSX & Tailwind Frontend Lab
+
+![Application overview](./public/screenshots/Screenshot%202025-11-26%20114726.png)
+
+This project is the Week 3 assignment for the PLP MERN July cohort. It focuses on modern front-end engineering practices with Vite, React, TypeScript, Tailwind CSS, routing, reusable components, hooks, context, and remote data fetching.
+
+###  Tech Stack
+- Vite + TypeScript for fast dev/build tooling
+- React 18 with React Router for component-driven UI and navigation
+- Tailwind CSS 3 for utility-first, fully responsive styling
+- Custom hooks and React Context for state management and theming
+- JSONPlaceholder REST API integration with pagination, search, and resilient states
+
+### ⚙️ Getting Started
+```bash
+npm install
+npm run dev
+```
+
+Other useful scripts:
+- `npm run build` – type-checks and builds the production bundle
+- `npm run preview` – serves the production build locally
+
+###  Project Structure
+```
+src/
+  components/   # Reusable UI primitives (Button, Card, layout, TaskManager, ApiExplorer…)
+  context/      # Theme context powered by a custom localStorage hook
+  hooks/        # Composable logic such as useLocalStorage
+  pages/        # Routed views (Home, Tasks, Data Explorer, Not Found)
+  types/        # Shared TypeScript types (e.g., Task)
+  App.tsx       # Router definitions and layout wiring
+  main.tsx      # Application bootstrap with ThemeProvider + Router
+```
+
+###  Key Features
+- **Component architecture**: Navbar, layout shell, buttons, cards, footer, theme toggle, and modular feature components.
+- **State management & hooks**: Task Manager uses `useState`, `useEffect`, context, and a custom `useLocalStorage` hook to persist tasks and theme preferences.
+- **Task workflow**: Add, toggle, delete, and filter between All/Active/Completed views with live stats cards.
+- **Theme system**: Global light/dark mode powered by `ThemeProvider` and Tailwind’s `dark` class strategy.
+- **API Explorer**: Fetches posts from JSONPlaceholder with loading/error states, search, pagination (load more), and reset controls.
+- **Responsive Tailwind UI**: Every screen adapts to mobile, tablet, and desktop with smooth transitions and subtle shadows.
+
+###  Deployment
+1. Build the app: `npm run build`
+2. Deploy the `dist/` folder to Vercel, Netlify, or GitHub Pages (Vite output is static).
+3. Update this README with the live URL and replace the placeholder SVG with real screenshots of your deployed UI.
+
+###  Testing Checklist
+- [ ] Verify `npm run dev` renders all routes without console errors.
+- [ ] Exercise the Task Manager (add/complete/delete/filter) and confirm persistence after reload.
+- [ ] Use the API Explorer search, reset, and load-more controls; observe loading/error states (toggle network offline for error).
+- [ ] Toggle between light/dark themes and confirm Tailwind dark classes apply across pages.
+- [ ] Run `npm run build` before pushing to ensure type safety and production readiness.
+
+Happy building! Update this README with anything specific to your deployment or extra credit features you add. 🎯
